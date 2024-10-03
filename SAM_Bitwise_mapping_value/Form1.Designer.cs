@@ -46,7 +46,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(527, 99);
+            this.groupBox1.Size = new System.Drawing.Size(535, 99);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Bit value";
@@ -57,7 +57,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtFlag.Location = new System.Drawing.Point(9, 66);
             this.txtFlag.Name = "txtFlag";
-            this.txtFlag.Size = new System.Drawing.Size(512, 20);
+            this.txtFlag.Size = new System.Drawing.Size(520, 20);
             this.txtFlag.TabIndex = 1;
             this.txtFlag.TextChanged += new System.EventHandler(this.txtFlag_TextChanged);
             // 
@@ -67,7 +67,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.Location = new System.Drawing.Point(6, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(515, 47);
+            this.label1.Size = new System.Drawing.Size(523, 47);
             this.label1.TabIndex = 0;
             this.label1.Text = "Thr nature of an alignment is described in a SAM file\'s flag value which is in co" +
     "lumn 2 of an alignment. If you copy this value to the text box below, the alignm" +
@@ -81,7 +81,7 @@
             this.groupBox2.Controls.Add(this.txtResult);
             this.groupBox2.Location = new System.Drawing.Point(12, 117);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(527, 192);
+            this.groupBox2.Size = new System.Drawing.Size(535, 194);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Alignments properties";
@@ -95,13 +95,13 @@
             this.txtResult.Multiline = true;
             this.txtResult.Name = "txtResult";
             this.txtResult.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtResult.Size = new System.Drawing.Size(512, 167);
+            this.txtResult.Size = new System.Drawing.Size(520, 169);
             this.txtResult.TabIndex = 0;
             // 
             // btnQuit
             // 
             this.btnQuit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnQuit.Location = new System.Drawing.Point(458, 315);
+            this.btnQuit.Location = new System.Drawing.Point(466, 317);
             this.btnQuit.Name = "btnQuit";
             this.btnQuit.Size = new System.Drawing.Size(75, 23);
             this.btnQuit.TabIndex = 2;
@@ -112,7 +112,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(551, 350);
+            this.ClientSize = new System.Drawing.Size(559, 352);
             this.Controls.Add(this.btnQuit);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
