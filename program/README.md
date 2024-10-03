@@ -10,14 +10,6 @@ This folder contains the precompiled program as 32 and 64 bit executables and a 
 
 <hr />
 
-#### Important note  
-
-Once downloaded it is important that the AgileStructure.exe, AgileStructure.dll and AgileStructure.runtimeconfig.json are located in the same folder. 
-<hr />
-
-* [Downloading the zip file](#downloading-the-zip-file)
-* [Downloading the individual files](#downloading-the-individual-files)
-
 ## Downloading the zip file
 
 First click on the program file (AgileStructure.zip in the table above) which will take you to a new page, on the upper righthand corner click on the icon of a tray with an arrow pointing to it (Figure 1). This will then start the download which will ultimately prompt you to either save it or open the zip file (Figure 2).
