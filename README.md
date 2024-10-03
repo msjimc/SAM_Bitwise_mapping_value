@@ -8,7 +8,7 @@ While the use of a single value to hold up to 32 pieces of data is very memory e
 
 Simply enter the alignments Flag value in the upper text area and the alignments description will appear in the lower field (Figure 1).
 
-The compiled programs for 32 and 64 bit systems can be found in the Program folder.
+The compiled programs for 32 and 64 bit systems can be found in the [Program folder](program).
 
 <br>
 
