@@ -16,7 +16,7 @@ namespace SAM_Bitwise_mapping_value
 {
     public partial class Form1 : Form
     {
-        readonly string[] _valuesPositive = { "Paired data", "Both reads mapped as a pair", "Read unmapped", "Mate is unmapped", "Read reverse complemented", "Mate read is reverse complemented", "Read mapped to template", "Read's mate is mapped to template", "This ss a secondary alignment", "Alignment fails quality checks", "PCR or optical duplicate", "Is in supplementary alignment (e.g. aligner specific, could be a portion of a split read or a tied region)" };
+        readonly string[] _valuesPositive = { "Paired data", "Both reads mapped as a pair", "Read unmapped", "Mate is unmapped", "Read reverse complemented", "Mate read is reverse complemented", "Read mapped to template", "Read's mate is mapped to template", "This is a primary alignment", "Alignment fails quality checks", "PCR or optical duplicate", "Is in supplementary alignment (e.g. aligner specific, could be a portion of a split read or a tied region)" };
         readonly string[] _valuesNegative = { "Single end data", "Not a mapped read pair", "Read mapped", "Mate is mapped", "Read in original orientation", "Mate pair isnt reverse complement", "Read mapped to template", "Read's mate not mapped to template", "This is a secondary alignment", "Alignment fails quality checks", "PCR or optical duplicate", "Is in supplementary alignment (e.g. aligner specific, could be a portion of a split read or a tied region)" };
 
         public Form1()
@@ -117,6 +117,11 @@ namespace SAM_Bitwise_mapping_value
                 result[i] = "NA";
             }
             return result.ToArray();
+        }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
